@@ -1,0 +1,386 @@
+.main {
+  min-height: 100vh;
+  padding: 2rem;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.breadcrumb {
+  margin-bottom: 2rem;
+}
+
+.breadcrumb a {
+  color: var(--carvao);
+  font-family: 'Courier Prime', monospace;
+  font-size: 0.9rem;
+  transition: color 0.3s;
+}
+
+.breadcrumb a:hover {
+  color: var(--sangue);
+}
+
+/* Layout de Livro Aberto */
+.livro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  background: var(--papel-claro);
+  border: 3px solid var(--papel-escuro);
+  padding: 3rem;
+  box-shadow: 
+    0 10px 30px rgba(0, 0, 0, 0.2),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+  position: relative;
+}
+
+/* Linha central do livro */
+.livro::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    var(--papel-escuro) 10%,
+    var(--papel-escuro) 90%,
+    transparent
+  );
+  transform: translateX(-50%);
+}
+
+/* Página Esquerda - Ilustração */
+.pagina_esquerda {
+  padding-right: 2rem;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.ilustracao_container {
+  margin-bottom: 2rem;
+}
+
+.ilustracao_placeholder {
+  width: 100%;
+  aspect-ratio: 3/4;
+  background: var(--papel-medio);
+  border: 2px solid var(--papel-escuro);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.ilustracao_placeholder::after {
+  content: '';
+  position: absolute;
+  inset: 10px;
+  border: 1px dashed var(--carvao);
+  opacity: 0.3;
+}
+
+.inicial {
+  font-size: 12rem;
+  font-family: 'IM Fell English', serif;
+  color: var(--tinta-sepia);
+  opacity: 0.2;
+}
+
+.legenda {
+  text-align: center;
+  font-style: italic;
+  color: var(--carvao);
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.nome_cientifico {
+  font-family: 'Courier Prime', monospace;
+  font-size: 0.85rem;
+  display: block;
+  margin-top: 0.25rem;
+}
+
+/* Ficha Técnica */
+.ficha_tecnica {
+  background: rgba(139, 115, 85, 0.1);
+  border: 1px solid var(--papel-escuro);
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+
+.ficha_tecnica h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: var(--tinta-sepia);
+  border-bottom: 1px solid var(--papel-escuro);
+  padding-bottom: 0.5rem;
+}
+
+.ficha_tecnica dl {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.ficha_tecnica dt {
+  font-family: 'Courier Prime', monospace;
+  font-size: 0.85rem;
+  color: var(--carvao);
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.ficha_tecnica dd {
+  margin-left: 0;
+  color: var(--tinta-preta);
+  margin-bottom: 0.5rem;
+}
+
+.badge_ameaca {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border: 1px solid;
+  font-family: 'Courier Prime', monospace;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.ameaca_extremo {
+  background: var(--sangue);
+  color: var(--papel-claro);
+  border-color: var(--sangue);
+}
+
+.ameaca_alto {
+  background: var(--ferrugem);
+  color: var(--papel-claro);
+  border-color: var(--ferrugem);
+}
+
+.ameaca_moderado {
+  background: transparent;
+  color: var(--carvao);
+  border-color: var(--carvao);
+}
+
+.ameaca_baixo {
+  background: transparent;
+  color: var(--verde-musgo);
+  border-color: var(--verde-musgo);
+}
+
+/* Página Direita - Conteúdo */
+.pagina_direita {
+  padding-left: 2rem;
+}
+
+.cabecalho {
+  margin-bottom: 2rem;
+  text-align: center;
+  position: relative;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--tinta-sepia);
+}
+
+.cabecalho h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.decoracao {
+  font-size: 1.5rem;
+  color: var(--sangue);
+  margin-top: 0.5rem;
+}
+
+.secao {
+  margin-bottom: 2rem;
+}
+
+.secao h2 {
+  font-size: 1.5rem;
+  color: var(--tinta-sepia);
+  margin-bottom: 0.75rem;
+  border-left: 4px solid var(--sangue);
+  padding-left: 0.75rem;
+}
+
+.secao p {
+  text-align: justify;
+  line-height: 1.8;
+  color: var(--tinta-preta);
+}
+
+/* Observações do Caçador - Estilo Manuscrito */
+.secao_observacoes {
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 2px dashed var(--carvao);
+}
+
+.secao_observacoes h2 {
+  font-size: 1.3rem;
+  color: var(--carvao);
+  border-left: 4px solid var(--carvao);
+  margin-bottom: 1rem;
+}
+
+.nota_manuscrita {
+  background: rgba(212, 196, 168, 0.3);
+  border-left: 3px solid var(--ferrugem);
+  padding: 1.5rem;
+  font-style: italic;
+  position: relative;
+}
+
+.nota_manuscrita::before {
+  content: '"';
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  font-size: 4rem;
+  color: var(--ferrugem);
+  opacity: 0.3;
+  font-family: 'IM Fell English', serif;
+}
+
+.nota_manuscrita p {
+  color: var(--tinta-sepia);
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.assinatura {
+  text-align: right;
+  margin-top: 1rem;
+  font-family: 'IM Fell English', serif;
+  color: var(--carvao);
+  font-size: 0.9rem;
+}
+
+/* Navegação entre Páginas */
+.navegacao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 3px double var(--tinta-sepia);
+}
+
+.nav_anterior,
+.nav_proxima {
+  min-height: 80px;
+}
+
+.nav_link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: var(--papel-claro);
+  border: 2px solid var(--papel-escuro);
+  transition: all 0.3s;
+  height: 100%;
+}
+
+.nav_link:hover {
+  border-color: var(--sangue);
+  transform: translateY(-2px);
+  box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.nav_proxima .nav_link {
+  justify-content: flex-end;
+}
+
+.nav_seta {
+  font-size: 2rem;
+  color: var(--sangue);
+}
+
+.nav_info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.nav_proxima .nav_info {
+  align-items: flex-end;
+}
+
+.nav_label {
+  font-family: 'Courier Prime', monospace;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: var(--carvao);
+  letter-spacing: 1px;
+}
+
+.nav_nome {
+  font-family: 'IM Fell English', serif;
+  font-size: 1.2rem;
+  color: var(--tinta-sepia);
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+  .livro {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2rem;
+  }
+
+  .livro::before {
+    display: none;
+  }
+
+  .pagina_esquerda {
+    padding-right: 0;
+    border-right: none;
+    border-bottom: 2px solid var(--papel-escuro);
+    padding-bottom: 2rem;
+  }
+
+  .pagina_direita {
+    padding-left: 0;
+  }
+
+  .navegacao {
+    grid-template-columns: 1fr;
+  }
+
+  .nav_proxima .nav_link {
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+  }
+
+  .nav_proxima .nav_info {
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    padding: 1rem;
+  }
+
+  .livro {
+    padding: 1.5rem;
+  }
+
+  .cabecalho h1 {
+    font-size: 2rem;
+  }
+
+  .inicial {
+    font-size: 8rem;
+  }
+}

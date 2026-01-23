@@ -1,0 +1,57 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.content {
+  max-width: 600px;
+  text-align: center;
+  background: var(--papel-claro);
+  border: 3px solid var(--papel-escuro);
+  padding: 3rem;
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.titulo {
+  font-size: 2.5rem;
+  color: var(--sangue);
+  margin-bottom: 1.5rem;
+}
+
+.texto {
+  font-size: 1.2rem;
+  color: var(--tinta-sepia);
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.ilustracao {
+  font-size: 4rem;
+  color: var(--carvao);
+  margin: 2rem 0;
+  opacity: 0.3;
+}
+
+.botao {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: var(--papel-escuro);
+  color: var(--papel-claro);
+  border: 2px solid var(--tinta-sepia);
+  font-family: 'IM Fell English', serif;
+  font-size: 1.1rem;
+  transition: all 0.3s;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.botao:hover {
+  background: var(--sangue);
+  border-color: var(--sangue);
+  transform: translateY(-2px);
+  box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.2);
+}

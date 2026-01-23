@@ -1,0 +1,136 @@
+{
+  "criaturas": [
+    {
+      "id": "estrige",
+      "nome_comum": "Estrige",
+      "classificacao": "Amaldiçoado",
+      "ilustracao_src": "/images/criaturas/estrige.png",
+      "habitat": "Ruínas abandonadas, cemitérios antigos e locais de execução pública. Prefere estruturas com acesso a porões, criptas ou câmaras subterrâneas. Estritamente noturna, evita qualquer exposição à luz solar direta.",
+      "comportamento": "Criatura atarracada de corpo humanoide deformado, possuindo duas cabeças distintas de ave de rapina com bicos afiados. Asas vestigiais permitem voos curtos e rasantes. Extremamente territorial, ataca intrusos com garras afiadas capazes de rasgar carne e osso. Durante o dia, entra em estado de torpor profundo, tornando-se completamente vulnerável. A maldição que a anima está ligada a um corpo físico que deve ser destruído para quebrar o encantamento.",
+      "nivel_ameaca": "Alto",
+      "observacoes_cacador": "O cheiro era o primeiro aviso - carne podre misturada com algo doce, como fruta fermentada. Quando a primeira cabeça me sibilou, já era tarde demais para correr. Senti o impacto no ombro esquerdo, três garras rasgando até o osso. A dor foi paralisante. A segunda cabeça mordeu minha perna enquanto eu tentava me levantar. Consegui acertar o coração com minha espada prateada, mas não antes de perder muito sangue. As garras são mais perigosas que os bicos - elas não apenas cortam, elas arrancam. E o fedor... dias depois ainda sentia nos meus sonhos.",
+      "origem_da_informacao": "Encontro Pessoal"
+    },
+    {
+      "id": "niveleno",
+      "nome_comum": "Niveleno",
+      "classificacao": "Amaldiçoado",
+      "ilustracao_src": "/images/criaturas/niveleno.png",
+      "habitat": "Lagos, rios de corrente lenta, pântanos e poços profundos. Prefere águas turvas onde pode permanecer submerso por longos períodos. Ocasionalmente encontrado em cisternas abandonadas ou reservatórios antigos.",
+      "comportamento": "Espírito aquático de forma fluida e translúcida quando submerso, capaz de assumir aparência humanoide ao emergir da água. Atrai vítimas através de sons melódicos ou imitação de vozes conhecidas. Uma vez que a presa se aproxime da margem, o niveleno a arrasta para as profundezas, afogando-a antes de devorar. Possui força sobre-humana quando em contato com água, mas enfraquece rapidamente em terra seca.",
+      "nivel_ameaca": "Alto",
+      "observacoes_cacador": "Camponeses da região de Velen relatam casos recorrentes de afogamentos misteriosos, sempre acompanhados por cantos melódicos ao entardecer. Testemunhas descrevem uma figura translúcida emergindo da água, com traços humanos mas completamente sem cor. Um sobrevivente jurou ter ouvido a voz de sua falecida mãe chamando-o para o lago. Acredita-se que sejam espíritos de afogados que, por maldição ou magia residual, permanecem presos entre mundos. Documentos antigos sugerem queimar o corpo original pode libertar o espírito, mas tal corpo raramente é encontrado.",
+      "origem_da_informacao": "Relato de Terceiros"
+    },
+    {
+      "id": "bruxa",
+      "nome_comum": "Bruxa",
+      "classificacao": "Vampiro",
+      "ilustracao_src": "/images/criaturas/bruxa.png",
+      "habitat": "Áreas urbanas e rurais, disfarçadas entre a população humana. Durante o dia, indistinguíveis de pessoas comuns. À noite, buscam locais isolados para a transformação, preferindo celeiros, casas abandonadas ou florestas próximas a vilarejos.",
+      "comportamento": "Vampiro de nascimento, não criado por mordida. Durante o dia, mantém forma humana perfeitamente normal, com plena consciência e controle. Ao anoitecer, sofre transformação corporal involuntária: pele torna-se pálida e esticada sobre os ossos, olhos escurecem completamente, boca rasga-se revelando presas afiadas, dedos alongam-se em garras, corpo torna-se esquelético mas incrivelmente forte. Apesar da aparência monstruosa, mantém inteligência e pode controlar a sede de sangue com grande esforço de vontade. Alguns indivíduos conseguem suprimir os instintos predatórios, outros sucumbem completamente.",
+      "nivel_ameaca": "Alto",
+      "observacoes_cacador": "Vereena parecia uma mulher comum durante o dia. Conversamos, rimos, compartilhamos pão. Mas quando o sol se pôs... Deus, o que vi. Sua pele esticou como papel molhado, os olhos ficaram negros como o vazio, a boca rasgou de orelha a orelha. As garras cresceram enquanto eu assistia, horrorizado. Ela gritou, implorando que eu fugisse. A transformação é tortura, não poder. Quando finalmente assumiu a forma monstruosa, não havia mais traços da mulher que eu conhecera. Apenas fome. Apenas morte. A prata atravessou seu coração, mas seus olhos me acompanharam até o fim. Ainda sonho com aquele olhar.",
+      "origem_da_informacao": "Encontro Pessoal"
+    },
+    {
+      "id": "mula",
+      "nome_comum": "Mula",
+      "classificacao": "Vampiro",
+      "ilustracao_src": "/images/criaturas/mula.png",
+      "habitat": "Cemitérios, catacumbas, porões de edifícios abandonados e qualquer local com acesso a cadáveres frescos. Evita luz solar direta, permanecendo em sombras profundas mesmo durante o dia.",
+      "comportamento": "Vampiro inferior criado através de mordida, não por nascimento. Corpo cadavérico com pele cinza-esverdeada em estado de decomposição avançada, olhos vazios e sem brilho, dentes podres mas ainda afiados, estrutura corporal magra e desnutrida. Completamente bestial, sem traços de inteligência humana ou capacidade de fala. Movido exclusivamente por fome insaciável de sangue. Ataca em grupos, covardes quando isolados. Força sobre-humana compensada por movimentos descoordenados e previsíveis.",
+      "nivel_ameaca": "Moderado",
+      "observacoes_cacador": "O cheiro era insuportável - carne podre misturada com sangue coagulado. Encontrei cinco delas em um cemitério abandonado, roendo ossos. Quando me viram, vieram todas de uma vez, uivando como cães raivosos. A primeira me derrubou com um salto, dentes podres roçando meu pescoço. Senti o cheiro de sua respiração - putrefação pura. Cortei a cabeça da primeira, mas as outras não pararam. Não há inteligência, apenas fome. Matamos todas, mas o cheiro ficou em minhas roupas por dias. Queime os corpos. Sempre queime os corpos.",
+      "origem_da_informacao": "Encontro Pessoal"
+    },
+    {
+      "id": "ekimmu",
+      "nome_comum": "Ekimmu",
+      "classificacao": "Vampiro",
+      "ilustracao_src": "/images/criaturas/ekimmu.png",
+      "habitat": "Desertos, ruínas antigas em regiões áridas, tumbas profanadas e templos abandonados. Prefere climas secos e quentes, raramente encontrado em regiões úmidas ou frias.",
+      "comportamento": "Vampiro bestial originado de espírito vingativo que possuiu um cadáver. Corpo musculoso e deformado, pele ressecada como couro curtido ao sol, completamente sem pelos, focinho alongado repleto de presas irregulares, garras afiadas e curvadas. Puramente físico em natureza, sem habilidades mágicas ou sobrenaturais além da força e velocidade aumentadas. Caçador noturno agressivo, incapaz de comunicação verbal. Ataca com ferocidade animal, usando garras e presas em combinação. Vulnerável a decapitação e fogo.",
+      "nivel_ameaca": "Alto",
+      "observacoes_cacador": "A pele dele era como couro velho, rachada e seca. Quando me agarrou, senti a textura áspera contra minha pele - como areia e osso. O cheiro era de poeira e sangue seco. Ele não rugiu, não uivou, apenas atacou. Silencioso. Mortal. Suas garras rasgaram minha armadura como papel. Consegui enfiar minha espada em seu pescoço, mas a pele era tão dura que quase quebrei a lâmina. Quando finalmente o sangue escorreu, a criatura parou. Os olhos, antes vazios, fixaram em mim com ódio puro. Mesmo morrendo, ele tentou me matar. Vingança eterna é um motivador poderoso.",
+      "origem_da_informacao": "Encontro Pessoal"
+    },
+    {
+      "id": "carnichal",
+      "nome_comum": "Carniçal",
+      "classificacao": "Necrófago",
+      "ilustracao_src": "/images/criaturas/carnichal.png",
+      "habitat": "Campos de batalha, cemitérios mal cuidados, fossas comuns e qualquer local com abundância de cadáveres. Vivem em grupos de 5 a 15 indivíduos, criando tocas subterrâneas próximas às fontes de alimento.",
+      "comportamento": "Humano degenerado através do consumo repetido de carne humana. Corpo humanoide magro e esquelético, pele cinza-pálida esticada sobre ossos proeminentes, olhos fundos e amarelados, dentes afiados e irregulares. Contrariamente a representações exageradas, NÃO possuem espinhos, placas ósseas ou outras protuberâncias - apenas pele, osso e músculo atrofiado. Vivem em grupos hierárquicos, covardes quando isolados mas perigosos em matilha. Inteligência rudimentar permite emboscadas simples e táticas de caça coordenadas.",
+      "nivel_ameaca": "Moderado",
+      "observacoes_cacador": "Eles eram humanos uma vez. Isso é o que me dizia enquanto limpava minha espada. Encontrei um grupo de sete em um campo de batalha antigo, roendo ossos. Quando me viram, o maior deles - o líder - rugiu e os outros seguiram. O ataque foi coordenado, surpreendente. Um me distraiu, outro atacou pelas costas. Senti dentes rasgando minha perna, o cheiro de hálito podre em meu rosto. Cortei o líder primeiro, e os outros dispersaram. Covardes. Mas o cheiro... carne humana podre. Dias depois ainda sentia náuseas. Óleo necrófago ajuda, mas não apaga a memória.",
+      "origem_da_informacao": "Encontro Pessoal"
+    },
+    {
+      "id": "zeugl",
+      "nome_comum": "Zeugl",
+      "classificacao": "Necrófago",
+      "ilustracao_src": "/images/criaturas/zeugl.png",
+      "habitat": "Esgotos de grandes cidades, pântanos profundos, fossas sépticas e qualquer acúmulo de matéria orgânica em decomposição. Séssil por natureza, raramente se move do local onde se estabeleceu.",
+      "comportamento": "Massa amorfa de carne pútrida e tecido necrótico, resultado de mutação causada por acúmulo de resíduos orgânicos e magia residual. Tentáculos viscosos emergem da massa central, usados para capturar presas que se aproximam. Boca central circular repleta de dentes dispostos em anéis concêntricos. Digere presas lentamente ao longo de dias ou semanas. Completamente cego, detecta movimento através de vibrações na água ou solo. Vulnerável a fogo e ácidos fortes, mas extremamente resistente a cortes devido à natureza gelatinosa.",
+      "nivel_ameaca": "Extremo",
+      "observacoes_cacador": "Relatos de esgotos de Vizima descrevem uma criatura que engoliu três homens inteiros. Testemunhas afirmam que a massa ocupa uma câmara inteira, com tentáculos esperando nas águas turvas. Um sobrevivente descreveu ser arrastado para dentro da criatura, sentindo-se digerir lentamente enquanto ainda estava consciente. Documentos de alquimistas sugerem que zeugls nascem de acúmulo de resíduos orgânicos e magia residual, mas a origem exata permanece desconhecida. A criatura parece imortal enquanto houver matéria orgânica para consumir. Fogo é a única solução conhecida.",
+      "origem_da_informacao": "Relato de Terceiros"
+    },
+    {
+      "id": "kikimora",
+      "nome_comum": "Kikimora",
+      "classificacao": "Relicto",
+      "ilustracao_src": "/images/criaturas/kikimora.png",
+      "habitat": "Casas abandonadas, celeiros em ruínas, moinhos desativados e estruturas humanas há muito esquecidas. Prefere locais secos e escuros onde pode tecer teias elaboradas.",
+      "comportamento": "Espírito doméstico eslavo corrompido, manifestado em forma aracnídea. Corpo de aranha gigante do tamanho de um cão grande, pele seca e escamosa (não peluda), oito patas articuladas terminando em pontas afiadas, quelíceras venenosas capazes de injetar toxina paralisante. Tece teias resistentes em cantos e vigas, aguardando presas. Caça pequenos animais, roedores e ocasionalmente humanos desavisados. Veneno causa paralisia temporária seguida de necrose tecidual se não tratado. Vulnerável a fogo e esmagamento.",
+      "nivel_ameaca": "Moderado",
+      "observacoes_cacador": "A teia me pegou antes que eu visse a criatura. Fiquei preso, girando no ar enquanto ela descia do teto. A pele era seca e escamosa, não peluda como as aranhas comuns. As quelíceras gotejavam veneno verde. Quando ela me mordeu, senti o veneno queimar como ácido. Minha perna ficou dormente em segundos. Consegui cortar a teia com minha faca, mas ela já estava sobre mim. Oito patas, oito garras. Cortei três antes que ela fugisse. O veneno deixou uma cicatriz que ainda coça. Elas são rápidas, silenciosas, e não morrem facilmente. Leve sempre antídoto.",
+      "origem_da_informacao": "Encontro Pessoal"
+    },
+    {
+      "id": "silvano",
+      "nome_comum": "Silvano",
+      "classificacao": "Relicto",
+      "ilustracao_src": "/images/criaturas/silvano.png",
+      "habitat": "Florestas antigas e intocadas, bosques sagrados, clareiras isoladas longe de assentamentos humanos. Territórios podem abranger vários quilômetros quadrados de mata densa.",
+      "comportamento": "Espírito da floresta de origem greco-romana, relicto de eras antigas. Corpo humanoide robusto e musculoso coberto por pelos grossos, pernas de bode com cascos fendidos, chifres curvos emergindo da testa, rosto barbudo com traços bestiais mas inteligentes. Guardião territorial de florestas antigas, ataca invasores que desrespeitam a natureza ou caçam excessivamente. Pode ser pacífico se abordado com respeito e oferendas apropriadas. Força física considerável, capaz de derrubar árvores e esmagar ossos. Inteligente, capaz de fala e negociação.",
+      "nivel_ameaca": "Alto",
+      "observacoes_cacador": "Madeireiros da região de Brokilon relatam encontros com criaturas que protegem árvores antigas. Um grupo descreveu um ser metade homem, metade bode, que falou com eles em língua antiga, exigindo que parassem de cortar carvalhos centenários. Quando recusaram, três homens foram encontrados mortos, esmagados por troncos que 'caíram sozinhos'. Outros relatos mencionam silvanos aceitando oferendas de mel e vinho em troca de passagem segura. Acredita-se que sejam espíritos da natureza, antigos como as próprias florestas que guardam. Respeito é a única defesa conhecida.",
+      "origem_da_informacao": "Relato de Terceiros"
+    },
+    {
+      "id": "leshy",
+      "nome_comum": "Leshy",
+      "classificacao": "Relicto",
+      "ilustracao_src": "/images/criaturas/leshy.png",
+      "habitat": "Florestas primordiais, pântanos arborizados, regiões de mata fechada raramente visitadas por humanos. Prefere áreas com vegetação densa e árvores antigas.",
+      "comportamento": "Guardião florestal de origem eslava, espírito da natureza corporificado. Corpo coberto por casca de árvore viva, galhos e ramos crescendo organicamente da estrutura corporal, rosto humanoide esculpido em madeira nodosa com olhos que brilham como seiva fosforescente. Mimetismo biológico permite fundir-se com árvores, tornando-se praticamente invisível em seu habitat. Pode influenciar crescimento de plantas ao redor, criando barreiras de espinhos ou raízes para defender território. Evita humanos quando possível, mas defende florestas com ferocidade letal quando ameaçado. Vulnerável a fogo e machados afiados.",
+      "nivel_ameaca": "Alto",
+      "observacoes_cacador": "Caçadores de Velen contam histórias de florestas que mudam de layout - trilhas que desaparecem, árvores que se movem durante a noite. Um sobrevivente jurou ter visto uma árvore se transformar em homem de madeira, com olhos brilhando como vaga-lumes. Documentos folclóricos descrevem leshys como guardiões que podem controlar plantas e animais, punindo quem desrespeita a floresta. Alguns relatos sugerem que oferendas de sal ou pão podem apaziguá-los temporariamente. A criatura parece ser a própria floresta manifestada em forma humana. Imortal enquanto a mata permanecer.",
+      "origem_da_informacao": "Relato de Terceiros"
+    },
+    {
+      "id": "wyvern",
+      "nome_comum": "Wyvern",
+      "classificacao": "Híbrido",
+      "ilustracao_src": "/images/criaturas/wyvern.png",
+      "habitat": "Regiões montanhosas, penhascos rochosos, cavernas elevadas com acesso a céu aberto. Nidifica em locais inacessíveis a predadores terrestres, próximo a rotas de migração de gado ou rebanhos selvagens.",
+      "comportamento": "Réptil alado de origem natural, não mágica. Corpo de lagarto grande coberto por escamas resistentes, duas patas traseiras musculosas terminando em garras, asas de couro permitindo voo sustentado, cauda longa e flexível com ferrão venenoso na extremidade, cabeça reptiliana com presas e mandíbulas poderosas. Predador aéreo que caça gado, cavalos e ocasionalmente humanos. Ataca em mergulho, usando velocidade e peso para derrubar presas antes de aplicar veneno paralisante com o ferrão caudal. Inteligência animal básica, territorial durante época de nidificação.",
+      "nivel_ameaca": "Alto",
+      "observacoes_cacador": "O vento foi o primeiro aviso - asas batendo, som de couro rasgando o ar. Quando olhei para cima, já era tarde demais. O wyvern mergulhou, garras estendidas. O impacto me derrubou, ar saindo dos pulmões. Senti o peso dele sobre mim, escamas ásperas contra minha armadura. O ferrão caudal enfiou-se em meu ombro, e o veneno queimou como fogo líquido. Minha visão escureceu. Consegui acertar o pescoço com minha espada, mas as escamas eram duras como pedra. A criatura rugiu, sangue escorrendo, e voou. Fiquei no chão, paralisado, assistindo ela desaparecer nas nuvens. O veneno durou três dias.",
+      "origem_da_informacao": "Encontro Pessoal"
+    },
+    {
+      "id": "manticora",
+      "nome_comum": "Mantícora",
+      "classificacao": "Híbrido",
+      "ilustracao_src": "/images/criaturas/manticora.png",
+      "habitat": "Desertos, estepes áridas, ruínas de civilizações antigas em regiões remotas. Caçador solitário que estabelece território de caça extenso, raramente tolerando outros de sua espécie.",
+      "comportamento": "Híbrido mágico de origem persa antiga. Rosto humanoide com barba espessa e traços masculinos marcados, corpo de leão musculoso coberto por pelagem fulva, asas de morcego (não de pássaro) permitindo voo curto e planar, cauda de escorpião terminando em um único ferrão venenoso grande (não múltiplos). Inteligente e capaz de fala humana, frequentemente usa essa habilidade para enganar ou negociar com vítimas. Veneno do ferrão é letal, causando paralisia seguida de parada cardíaca. Predador astuto que combina força bruta, voo e inteligência tática. Extremamente perigoso mesmo para caçadores experientes.",
+      "nivel_ameaca": "Extremo",
+      "observacoes_cacador": "Documentos persas antigos descrevem a mantícora como 'o devorador de homens', uma criatura que fala para atrair vítimas. Relatos de mercenários que sobreviveram encontros mencionam a criatura oferecendo enigmas, propostas de negociação, até mesmo amizade - tudo enquanto se posiciona para o ataque fatal. Um relato descreve a mantícora sorrindo enquanto o ferrão se aproximava. Acredita-se que sejam híbridos criados por magia antiga, possuindo inteligência superior a qualquer outro monstro. O veneno mata em minutos. Não há antídoto conhecido. A única defesa é não ser enganado.",
+      "origem_da_informacao": "Relato de Terceiros"
+    }
+  ]
+}

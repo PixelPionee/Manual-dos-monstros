@@ -1,0 +1,207 @@
+.main {
+  min-height: 100vh;
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  padding: 3rem 0;
+  border-bottom: 3px double var(--tinta-sepia);
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.header::after {
+  content: '⚔';
+  position: absolute;
+  bottom: -1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--papel-medio);
+  padding: 0 1rem;
+  font-size: 2rem;
+  color: var(--sangue);
+}
+
+.titulo {
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.subtitulo {
+  font-size: 1.2rem;
+  color: var(--carvao);
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+.autor {
+  font-size: 0.9rem;
+  display: block;
+  margin-top: 0.5rem;
+  font-family: 'Courier Prime', monospace;
+}
+
+.indice {
+  margin-top: 4rem;
+}
+
+.indice_titulo {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  border-bottom: 2px solid var(--papel-escuro);
+  padding-bottom: 1rem;
+}
+
+.categoria {
+  margin-bottom: 4rem;
+}
+
+.categoria_titulo {
+  font-size: 2rem;
+  color: var(--sangue);
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+  border-left: 5px solid var(--sangue);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background: var(--papel-claro);
+  border: 2px solid var(--papel-escuro);
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  width: 20px;
+  height: 20px;
+  background: var(--papel-escuro);
+  clip-path: polygon(100% 0, 0 0, 100% 100%);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.15);
+  border-color: var(--sangue);
+}
+
+.card_imagem {
+  width: 100%;
+  aspect-ratio: 1;
+  background: var(--papel-medio);
+  border: 1px solid var(--papel-escuro);
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.placeholder {
+  font-size: 6rem;
+  font-family: 'IM Fell English', serif;
+  color: var(--tinta-sepia);
+  opacity: 0.3;
+}
+
+.card_info {
+  text-align: center;
+}
+
+.card_nome {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--tinta-sepia);
+}
+
+.card_classificacao {
+  font-size: 0.9rem;
+  color: var(--carvao);
+  font-style: italic;
+  margin-bottom: 0.75rem;
+  font-family: 'Courier Prime', monospace;
+}
+
+.card_ameaca {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border: 1px solid;
+  font-family: 'Courier Prime', monospace;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.ameaca_extremo {
+  background: var(--sangue);
+  color: var(--papel-claro);
+  border-color: var(--sangue);
+}
+
+.ameaca_alto {
+  background: var(--ferrugem);
+  color: var(--papel-claro);
+  border-color: var(--ferrugem);
+}
+
+.ameaca_moderado {
+  background: transparent;
+  color: var(--carvao);
+  border-color: var(--carvao);
+}
+
+.ameaca_baixo {
+  background: transparent;
+  color: var(--verde-musgo);
+  border-color: var(--verde-musgo);
+}
+
+.footer {
+  text-align: center;
+  padding: 3rem 0;
+  margin-top: 4rem;
+  border-top: 3px double var(--tinta-sepia);
+  font-style: italic;
+  color: var(--carvao);
+}
+
+@media (max-width: 768px) {
+  .main {
+    padding: 1rem;
+  }
+
+  .titulo {
+    font-size: 2.5rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .categoria_titulo {
+    font-size: 1.5rem;
+  }
+}

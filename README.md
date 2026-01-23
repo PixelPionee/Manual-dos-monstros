@@ -35,11 +35,11 @@ interface Criatura {
   id: string;                    // Slug para URL
   nome_comum: string;            // Nome principal
   classificacao: string;         // Taxonomia
-  ilustracao_src: string;        // Caminho da imagem
-  habitat: string;               // Onde vive
-  comportamento: string;         // Biologia e padrões
-  nivel_ameaca: string;          // Extremo | Alto | Moderado | Baixo
-  observacoes_cacador: string;   // Notas subjetivas
+  ilustracao_src: string;        
+  habitat: string;               
+  comportamento: string;         
+  nivel_ameaca: string;          
+  observacoes_cacador: string;   
 }
 ```
 

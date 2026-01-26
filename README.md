@@ -32,9 +32,9 @@ Todas as criaturas estão em `data/bestiario.json` com a seguinte estrutura:
 
 ```typescript
 interface Criatura {
-  id: string;                    // Slug para URL
-  nome_comum: string;            // Nome principal
-  classificacao: string;         // Taxonomia
+  id: string;                    
+  nome_comum: string;            
+  classificacao: string;         
   ilustracao_src: string;        
   habitat: string;               
   comportamento: string;         

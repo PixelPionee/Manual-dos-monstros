@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import bestiarioData from '@/data/bestiario.json'
 import styles from './page.module.css'
 
@@ -35,9 +36,13 @@ export default function Home() {
                     className={styles.card}
                   >
                     <div className={styles.card_imagem}>
-                      <div className={styles.placeholder}>
-                        {criatura.nome_comum.charAt(0)}
-                      </div>
+                      <Image
+                        src={criatura.ilustracao_src}
+                        alt={criatura.nome_comum}
+                        width={200}
+                        height={200}
+                        className={styles.imagem}
+                      />
                     </div>
                     <div className={styles.card_info}>
                       <h4 className={styles.card_nome}>{criatura.nome_comum}</h4>

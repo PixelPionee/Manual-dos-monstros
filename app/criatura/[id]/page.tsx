@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import bestiarioData from '@/data/bestiario.json'
 import styles from './page.module.css'
 import { notFound } from 'next/navigation'
@@ -31,8 +32,15 @@ export default function CriaturaPage({ params }: { params: { id: string } }) {
         {/* Página Esquerda - Ilustração */}
         <div className={styles.pagina_esquerda}>
           <div className={styles.ilustracao_container}>
-            <div className={styles.ilustracao_placeholder}>
-              <span className={styles.inicial}>{criatura.nome_comum.charAt(0)}</span>
+            <div className={styles.ilustracao_frame}>
+              <Image
+                src={criatura.ilustracao_src}
+                alt={`Ilustração de ${criatura.nome_comum}`}
+                width={400}
+                height={400}
+                className={styles.ilustracao}
+                priority
+              />
             </div>
             <p className={styles.legenda}>
               {criatura.nome_comum}<br />

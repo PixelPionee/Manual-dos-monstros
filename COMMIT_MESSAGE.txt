@@ -1,0 +1,30 @@
+feat: Adicionar ilustrações e renomear Wyvern para Dragão
+
+## Mudanças Principais
+
+### 🎨 Ilustrações
+- Adicionadas 12 ilustrações PNG em /public/images/criaturas/
+- Integrado componente Next.js Image nas páginas
+- Aplicados filtros CSS (sepia/contrast) para estética vintage
+
+### 🔄 Renomeações
+- Wyvern → Dragão (ID, nome, caminho de imagem)
+- Todas as imagens renomeadas para lowercase
+
+### 📊 Reclassificações
+- Dragão: Híbrido → Draconídeo
+- Kikimora: Relicto → Insectoide
+- Mantícora: permanece Híbrido
+- Silvano/Leshy: permanecem Relicto
+
+### 🛠️ Arquivos Modificados
+- data/bestiario.json
+- app/page.tsx
+- app/page.module.css
+- app/criatura/[id]/page.tsx
+- app/criatura/[id]/page.module.css
+
+### ✅ Testes
+- Build local: 16 páginas SSG geradas com sucesso
+- Imagens otimizadas via Next.js Image
+- Responsividade mantida
